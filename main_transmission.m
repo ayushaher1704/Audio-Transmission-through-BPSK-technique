@@ -8,7 +8,7 @@ close all;
 
 %% 1. AUDIO INPUT
 
-[audio, Fs] = audioread('voice sample1.wav');
+[audio, Fs] = audioread('Audio/voice sample1.wav');
 
 % Convert stereo audio to mono
 if size(audio,2) == 2
